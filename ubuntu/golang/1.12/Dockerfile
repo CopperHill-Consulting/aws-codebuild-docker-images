@@ -103,7 +103,7 @@ COPY ssh_config /root/.ssh/config
 COPY dockerd-entrypoint.sh /usr/local/bin/
 
 ENV GOLANG_VERSION="1.12" \
-    GOLANG_DOWNLOAD_SHA256="d20a4869ffb13cee0f7ee777bf18c7b9b67ef0375f93fac1298519e0c227a07f" \
+    GOLANG_DOWNLOAD_SHA256="750a07fef8579ae4839458701f4df690e0b20b8bcce33b437e4df89c451b6f13" \
     GOPATH="/go" \
     DEP_VERSION="0.5.1" \
     DEP_BINARY="dep-linux-amd64"
